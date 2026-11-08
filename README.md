@@ -1,99 +1,74 @@
 # Hey. 👋
 
-I'm a full-stack engineer who has been building web software for most of my adult life.
-Some of it was greenfield, some of it is still running years later, and some of it
-was already old when I first opened the repository.
+I'm Joachim, a full-stack web engineer in Germany, working remotely.
+Twenty years of building for the web: shops, CMS sites, integrations and the tools around them.
+Today mostly **Shopware 6, Laravel and Statamic**, plus a native Mac app on the side.
 
-I'm based in Germany and work remotely.
 I like systems that are understandable, predictable, and don't demand attention
 when nothing is wrong.
 
 ---
 
-## What I Do
+## Recent work
 
-I design and implement web applications end-to-end.
-That usually means backend, frontend, integrations, deployments, and all the
-uncomfortable glue code in between.
+**[Statamic](https://github.com/pulls?q=is%3Apr+author%3Amynetx+org%3Astatamic+is%3Amerged): 39 merged pull requests and counting** (core, SSG, SEO Pro)  
+Bug fixes from real projects: structured collections, Bard data loss, static caching,
+validation, accessibility in the Control Panel. Plus a few in
+[Shopware](https://github.com/shopware/shopware/pulls?q=is%3Apr+author%3Amynetx+is%3Amerged).
 
-I care about:
+**[Featherview](https://github.com/featherview/featherview)**: a fast, keyboard-driven image viewer for macOS  
+Native Swift and SwiftUI, open source, with performance budgets it is measured against:
+about 20 ms to the next picture, a 4.6 GB Photoshop file, 70,000 pixels across, on screen in under a second.
+Releases through GitHub, Homebrew and an automatic updater. [featherview.mynetx.net](https://featherview.mynetx.net)
 
-- code that explains itself to the next person (often future me)  
-- boring technology that fails in obvious ways  
-- small abstractions with clear boundaries  
-- removing things until the system gets simpler  
+**[jxrlib](https://www.openwall.com/lists/oss-security/2026/10/24/1): six memory-safety bugs**  
+Featherview's fuzzer found them in the JPEG XR reference library. I reported them in a coordinated
+disclosure; they are fixed upstream, Wine has taken the fixes, and CVEs are on their way.
 
-I've worked as a freelancer, contractor, co-founder, and long-term team member.
-Most of my work has been remote, international, and asynchronous long before that
-was fashionable.
+### How I work
 
----
-
-## Work (Selected)
-
-**Pixelkode:** Full Stack Engineer (since 2020, remote)  
-I build and maintain custom Laravel applications, shops, and websites.
-This includes translating designs into solid frontends, integrating APIs,
-debugging production issues, improving performance, and generally making sure
-systems stay operable over time.
-
-**Force24 (UK):** Contractor  
-Long-term contracting work around system integrations, plugins, and a
-cloud-based catalog application for Michelin UK.
-
-**Jublo:** Co-founder  
-I helped build open-source libraries for social network APIs
-(`codebird-js`, `codebird-php`), internal business software, and tooling for
-translation workflows.
-I also learned that running a company teaches you different lessons than writing code.
-
-**Ripple Labs**  
-Worked on the Ripple Trade web client, focusing on bug fixing, feature development,
-testing, and localization workflows.
-
-**Localization & Translation (past life)**  
-Years of freelance work for Lionbridge, RWS Moravia, and Twitter.
-This is why I tend to notice wording issues and edge cases that show up
-once software leaves English.
+I work with AI coding agents, inside a quality system I built for it: the bug is reproduced in a sandbox
+first, the fix starts with a failing test, a second model reviews it, and nothing goes out before I have
+checked the result myself. It's how the pull requests above came about.
 
 ---
 
-## Tools & Technologies
+## Experience
 
-Primarily PHP and TypeScript, with SQL as a constant.
-I'm more interested in why a tool exists than in how loudly it's advertised.
+**Pixelkode**: Full-stack engineer (since 2020, remote)  
+Shopware 6 plugins and a multi-country shop, Laravel and Statamic projects from concept to deployment,
+OXID solutions, payment, shipping and CRM integrations, and keeping production systems healthy:
+monitoring, live debugging, performance, accessibility. Also an in-house PHP CLI for Git and ticket workflows.
+
+**Freelance** (2005–2022): **Force24** (UK, system integrations and a catalogue application for Michelin UK) ·
+**Jublo** (co-founder; open-source API libraries `codebird-js` and `codebird-php`) ·
+**Ripple Labs** (Ripple Trade web client) · eload24 AG (CH)
+
+**Localization** (2012–2022): translator for Lionbridge, RWS Moravia and Twitter.
+That's why I notice wording and edge cases once software leaves English.
+
+**Writing**: Microsoft MVP (Windows Live), a book on Spotify (Rheinwerk/Vierfarben), tech articles.
+
+**Certified**: IHK Fachinformatiker für Anwendungsentwicklung (2024, grade "gut").
 
 ---
 
-## Human Languages
+## Stack
 
-German, English, French, Pidgin English  
-Working knowledge of Dutch, Italian, Spanish, Polish
+**Daily:** PHP, TypeScript, JavaScript, SQL (MySQL), HTML, CSS  
+**Frameworks:** Shopware 6, Symfony, Laravel, Statamic, Vue, Tailwind, Alpine.js, OXID  
+**Mac:** Swift 6, SwiftUI, AppKit, ImageIO  
+**Tooling:** Git, Docker, Nix (devenv), GitLab CI, GitHub Actions, PHPUnit, Vite, Laravel Forge, Cloudflare
 
----
-
-## Context
-
-Former Microsoft MVP (Windows Live).  
-Volunteer IT and infrastructure work.  
-Past humanitarian involvement in Cameroon and The Gambia.
-
-I try to build things in a way that makes life easier for the people who have to
-live with them afterward.
+**Languages:** German, English, French, Pidgin English; working knowledge of Dutch, Italian, Spanish, Polish
 
 ---
 
 ## Elsewhere
 
-Site & blog: https://mynetx.net  
-LinkedIn: https://www.linkedin.com/in/mynetx/  
-X: https://x.com/mynetx  
-
-If I'm quiet, I'm probably fixing something that was "quickly added" years ago …
-
----
-
-## One Principle
+Site & blog: [mynetx.net](https://mynetx.net) ·
+[LinkedIn](https://www.linkedin.com/in/mynetx/) ·
+[X](https://x.com/mynetx)
 
 Good software is understandable, predictable, and a little boring.
 If it needs a hero, it's already in trouble.
