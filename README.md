@@ -44,10 +44,11 @@ monitoring, live debugging, performance, accessibility. Also an in-house PHP CLI
 **Jublo** (co-founder; open-source API libraries `codebird-js` and `codebird-php`) ·
 **Ripple Labs** (Ripple Trade web client) · eload24 AG (CH)
 
-**Localization** (2012–2022): translator for Lionbridge, RWS Moravia and Twitter.
+**Localization** (2012–2022): translator for Lionbridge and RWS Moravia, moderator of Twitter's German translation.
 That's why I notice wording and edge cases once software leaves English.
 
-**Writing**: Microsoft MVP (Windows Live), a book on Spotify (Rheinwerk/Vierfarben), tech articles.
+**Writing**: Microsoft MVP (Windows Live) · around 6,400 how-to articles for schieb.de (2012–2018) ·
+several tech books, one of them with Rheinwerk.
 
 **Certified**: IHK Fachinformatiker für Anwendungsentwicklung (2024, grade "gut").
 
